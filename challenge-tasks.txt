@@ -1,0 +1,42 @@
+task 1
+Connected Username Compoenent
+A connected React component which takes a single prop, "id"
+
+Component displays the name of the user with the corresponding ID
+
+Can fetch the information during user state assemble (easy) or in real time (hard)
+
+task 2
+Add Comments (mendium)
+A seperate collection of messages that users have attached to tasks
+
+Properties:
+- Who created it
+- its contents
+- which task it applies to
+
+Required:
+- Comment crteate saga
+- comment reducer
+- comment create route
+
+Task #3
+Sign up page Medium
+
+A route accesible through a link on the Login Page
+- Don;t have an account? Sign Up
+
+Contains a form which creates a new user on the server
+-User creation saga
+-User creation route 'user/new'
+
+Task #4
+Secure The Application
+Logic which is adedd to Express preventing users without right credentios from accessing data
+
+Update Ex[ress routes
+-Auth token will be required
+-Token will be checked against permission tables to determine if request is valid
+-Routes will return a "403 Forbidden" " response on invlide credentials
+
+
